@@ -1,16 +1,26 @@
-*{
-    font-family: 'Lato', sans-serif;
-    font-family: 'PT Serif', serif;}
- 
-aside { 
-    width: 25%; height: 100%;
-    background-color: rgb(15, 15, 22);}
+* {font-family: 'Lato', sans-serif;
+     font-family: 'PT Serif', serif;}
 
-main{ 
-    width: 75%; height: 100%;}
+
+ /**................ASIDE....................*/
+
+aside { color: white;
+     width: 25%; height: 100%;
+     background-color: rgb(15, 15, 22);
+     padding: 25px;}
+
+img { width: 250px; height: 250px;
+     border-radius: 50%;}
+
+aside section h3 {letter-spacing: 5px;
+     border-bottom: 2px solid white;}
+
+
+ /**................MAIN....................*/
+
+main{ width: 75%; height: 100%;}
 
 header {   
       font-family: 'PT Serif', serif;
       background-color: rgb(36, 47, 63); }
 
- img { }
