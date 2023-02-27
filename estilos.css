@@ -1,26 +1,51 @@
-* {font-family: 'Lato', sans-serif;
-     font-family: 'PT Serif', serif;}
+* { font-family: 'Open Sans', sans-serif;}
+
+h3 { font-size: medium;
+     letter-spacing: 5px}
+
+ /**................HEADER...................*/
+
+header { color: white;                                   border: 1px solid rgb(153, 14, 125);
+     background-color: rgb(36, 47, 63);            
+     display: flex;
+     margin: 1px;}
+
+#foto {width: 25%;                                           border: 1px solid red;s
+     float: left }     
+
+#nombreyprofesión {width: 75%;  
+     float: left;                                            border: 1px solid greenyellow;
+     padding-top: 30px;  
+     display: flex; 
+     justify-content: center;}
+     
+img { width: 200px; height: 200px;                            border: 1px solid green;
+     border-radius: 50%; 
+     margin: 10px 20px 10px 60px}
+
+h1 { font-size: 35px;
+     letter-spacing: 10px}
+
+span { font-size: large;
+     letter-spacing: 7px;
+     border-top: 2px solid white;
+     margin-left: 70px;S}
 
 
- /**................ASIDE....................*/
+ /**................MENU....................*/
 
-aside { color: white;
+menu { color: white;
      width: 25%; height: 100%;
      background-color: rgb(15, 15, 22);
      padding: 25px;}
 
-img { width: 250px; height: 250px;
-     border-radius: 50%;}
-
-aside section h3 {letter-spacing: 5px;
+menu section h3 {
      border-bottom: 2px solid white;}
 
 
  /**................MAIN....................*/
 
-main{ width: 75%; height: 100%;}
+main { width: 75%; height: 100%;}
 
-header {   
-      font-family: 'PT Serif', serif;
-      background-color: rgb(36, 47, 63); }
+
 
