@@ -1,51 +1,73 @@
-* { font-family: 'Open Sans', sans-serif;}
+* { font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;}
 
 h3 { font-size: medium;
      letter-spacing: 5px}
 
  /**................HEADER...................*/
 
-header { color: white;                                   border: 1px solid rgb(153, 14, 125);
+header { color: white;                                  
      background-color: rgb(36, 47, 63);            
      display: flex;
      margin: 1px;}
 
-#foto {width: 25%;                                           border: 1px solid red;s
+#foto {width: 25%;                                        
      float: left }     
 
 #nombreyprofesión {width: 75%;  
-     float: left;                                            border: 1px solid greenyellow;
-     padding-top: 30px;  
+     float: left;                                           
      display: flex; 
+     padding-top: 30px;  
      justify-content: center;}
      
-img { width: 200px; height: 200px;                            border: 1px solid green;
+img { width: 200px; height: 200px;                            
      border-radius: 50%; 
      margin: 10px 20px 10px 60px}
 
 h1 { font-size: 35px;
      letter-spacing: 10px}
 
-span { font-size: large;
+#nombreyprofesión span { font-size: large;
      letter-spacing: 7px;
      border-top: 2px solid white;
-     margin-left: 70px;S}
+     margin-left: 70px;
+     padding-bottom: 1px;}
 
 
  /**................MENU....................*/
 
-menu { color: white;
-     width: 25%; height: 100%;
+.menu { color: white;                                            
+     width: 30%;
+     float: left;
      background-color: rgb(15, 15, 22);
      padding: 25px;}
 
-menu section h3 {
-     border-bottom: 2px solid white;}
+.menu ul { list-style-type: none;}
 
+.menu section h3 { border-bottom: 2px solid white;}
 
  /**................MAIN....................*/
 
-main { width: 75%; height: 100%;}
+.main { width: 70%;                                             
+     float: left;
+     padding: 10px 40px 10px 40px; }
 
+.main section { padding: 10px 20px 0px 20px;}      
 
+#perfilpersonal {background-color: rgb(211, 187, 167);                    
+     padding: 20px;
+     margin-top: 10px;}
 
+.main h3 { padding-top: 1px;                                                        
+           padding-bottom: 2px;
+           border-bottom: 1px solid black;}
+
+/* ........ media queries.........*/
+
+@media (max-width: 600px) {
+     header {width: 100%; display: contents; color: rgb(56, 34, 19);}
+     #foto {width: 100%; display: flex; padding: 5px;}
+     #nombreyprofesión {width: 100%; padding-top: 1px;} 
+     .menu {width: 100%;}
+     .main {width: 100%;}
+}
