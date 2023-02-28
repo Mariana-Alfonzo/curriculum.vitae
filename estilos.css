@@ -40,11 +40,19 @@ h1 { font-size: 35px;
      width: 30%;
      float: left;
      background-color: rgb(15, 15, 22);
-     padding: 25px;}
+     padding: 15px;}
 
 .menu ul { list-style-type: none;}
 
 .menu section h3 { border-bottom: 2px solid white;}
+
+#contacto  div {display: contents;
+     margin-right: 1px;}
+
+#contacto img {width: 25px;height: auto;
+     border-radius: 50%;
+     margin: 10px 10px 0px 0px;}
+
 
  /**................MAIN....................*/
 
@@ -61,6 +69,7 @@ h1 { font-size: 35px;
 .main h3 { padding-top: 1px;                                                        
            padding-bottom: 2px;
            border-bottom: 1px solid black;}
+
 
 /* ........ media queries.........*/
 
